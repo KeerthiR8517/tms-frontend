@@ -104,3 +104,43 @@ option{
     opacity: 1;
   }
 }
+/* Mobil view */
+ @media only screen and (max-width: 768px){
+.login-page {
+  height: 100vh;
+     background-attachment: scroll;
+
+}
+
+.login-title{
+  
+  margin: auto;
+   font-size: 70px; /* Smaller font for mobile */
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+ 
+
+}
+.login-select {
+  color: black;
+  margin: auto;
+  width: 70%;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size:xx-large;
+}
+.login-btn {
+  
+  margin: auto;
+  width: 70%;
+  margin-left: 70px;
+  font-size:xx-large;
+
+  
+
+}
+
+
+ }
