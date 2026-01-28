@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:8080/graphql",
+  uri: "https://tms-backend-ug40.onrender.com/graphql",
   headers: {
     Authorization: `Bearer ${localStorage.getItem("token") || ""}`,
   },

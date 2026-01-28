@@ -27,7 +27,7 @@ export default function ShipmentTile() {
   const [selectedShipment, setSelectedShipment] = useState(null);
   const [openDetails, setOpenDetails] = useState(false);
   const [openEdit, setOpenEdit] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null); // track which dropdown is open
+  const [activeDropdown, setActiveDropdown] = useState(null); 
 
   if (loading) return <div className="loader">Loading...</div>;
   if (error) return <p>{error.message}</p>;
