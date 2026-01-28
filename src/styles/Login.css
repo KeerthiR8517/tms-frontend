@@ -123,19 +123,27 @@ option{
 
 }
 .login-select {
-  color: black;
+  color: white;
   margin: auto;
   width: 70%;
-  margin-left: 70px;
+ display: block;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size:xx-large;
+
 }
+
+.login-select option{
+font-size: 15px;;
+}
+
+
+
 .login-btn {
   
   margin: auto;
   width: 70%;
-  margin-left: 70px;
+  display: block;
   font-size:xx-large;
 
   
